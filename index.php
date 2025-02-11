@@ -11,8 +11,34 @@
 
 </head>
 <body>
+    <div class="container-fluid bg-primary text-white text-center p-5">
+         <h1>Projeto SW2 </h1>
+         <p>
+            Elaborado por Ariane Oliveira
+    </div>
 
-    <h1>Projeto SW2 </h1>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-4">
+                <h1>Administrador</h1>
+            </div>
+
+
+            <div class="col-sm-4">
+                <h1>Categorias</h1>
+            </div>
+
+
+            <div class="col-sm-4">
+                <h1>Fornecedor</h1>
+            </div>
+
+
+
+
+    </div>
+    </div>
     
 </body>
 </html>
