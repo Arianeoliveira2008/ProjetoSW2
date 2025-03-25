@@ -15,7 +15,7 @@
     <h1> Projeto SW2 <h1>
 
     <p>
-        Elaborado por Vinícius Silva Guerra.
+        Elaborado por Ariane Oliveira.
     </p>
  </div>
 
