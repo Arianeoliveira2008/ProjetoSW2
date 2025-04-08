@@ -20,7 +20,7 @@
             <div class="col-sm-8 mx-auto mt-3 border border-warning">
                 <h3 class="text-center p-3">Preencha os dados abaixo</h3>
 
-                <form action="#">
+                <form action="produto_cadastro.php">
                     <p>
                         Descrição:<br>
                         <input type="text" name="nome" class="form-control">
