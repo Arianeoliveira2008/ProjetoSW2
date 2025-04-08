@@ -9,31 +9,32 @@
 </head>
 <body>
     <div class="bg-primary text-white p-3 text-center">
-        <h1>Cadastro Categorias</h1>
+        <h1>Cadastro Fornecedores</h1>
     </div>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-8 mx-auto mt-3 border border-primary ">
 
-            <h3 class="text-center p-3">Confirmação da Categorias</h3>
+            <h3 class="text-center p-3">Confirmação de fornecedor</h3>
 
-        <div> 
+        <div>
             <?php
                 include "conexao.php";
                 $nome = $_REQUEST["nome"];
 
-                echo "Nome da Categoria: $nome <br>";
 
-                $sql = "insert into categoria(nome)
+                echo "Nome do fornecedor: $nome <br>";
+
+                $sql = "insert into fornecedor(nome)
                         values (:nome)";
 
-            
+           
                 $result = $conexao->prepare("$sql");
                 $result ->bindValue("nome", $nome);
                 $result ->execute();
                  
-                echo "<p> A categoria foi cadastrada com sucesso ! </p>";
+                echo "<p> O fornecedor foi cadastrado com sucesso ! </p>";
 
             ?>
         </div>

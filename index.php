@@ -42,7 +42,7 @@
                 </p>
 
                 <p>
-                    <a href="categoria.php" class="btn btn-danger">Clque</a>
+                    <a href="categoria.php" class="btn btn-danger">Clique</a>
                 </p>
 
 
@@ -55,7 +55,7 @@
                     </p>
 
                     <p>
-                    <a href="fornecedor.php" class="btn btn-success">Clque</a>
+                    <a href="fornecedor.php" class="btn btn-success">Clique</a>
                     </p>
         </div>
 
@@ -71,7 +71,7 @@
                 </p>
 
                 <p>
-                    <a href="produto.php" class="btn btn-warning">Clque</a>
+                    <a href="produto.php" class="btn btn-warning">Clique</a>
                 </p>
 
             </div>
@@ -82,6 +82,16 @@
                     Ultilize esta opço para vizualizar as vendas 
                     realizadas pelos clientes
                 </p>
+
+                <div class="col-sm-6">
+                <h1 class="bg-primary">Formas pagamentos</h1>
+                <p class="text-secondary">
+                    Ultilize esta opço para realizar as formas de pagamentos 
+                    
+                </p>
+
+            
+            </div>
 
             
                 
