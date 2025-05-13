@@ -43,7 +43,15 @@
                 </p>
 
                 <p class="text-danger">
-                    mensagem de erro
+                    <?php
+
+                    session_start();
+
+                    if (isset($_SESSION["erro"]))
+                    {
+                        echo $_SESSION["erro"];
+                    }
+                    ?>
                 </p>
 
         </form>

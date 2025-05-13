@@ -19,7 +19,11 @@
     }
     else
     {
-        echo "Login e/ou Senha incorretos!";
+        session_start();
+        $_SESSION["erro"] ="Login e Senha incorretos !";
+
+        header("location: login.php");
+    
     }
 
 
